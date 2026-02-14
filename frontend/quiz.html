@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🧠 Quiz Time</h1>
+    <p>Choose the correct answer</p>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h2 id="question">Question text</h2>
+
+      <div class="options">
+        <button class="option" onclick="checkAnswer(0)">Option 1</button>
+        <button class="option" onclick="checkAnswer(1)">Option 2</button>
+        <button class="option" onclick="checkAnswer(2)">Option 3</button>
+        <button class="option" onclick="checkAnswer(3)">Option 4</button>
+      </div>
+
+      <p id="progress">Question 1 of 3</p>
+    </div>
+  </main>
+
+  <script src="js/quiz.js"></script>
+</body>
+</html>
